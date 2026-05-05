@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>سياسة الخصوصية — مَصروفاتي</title>
+    <style>
+        * { box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Tahoma, Arial, sans-serif;
+            line-height: 1.7;
+            color: #334155;
+            background: #F0F4F8;
+            margin: 0;
+            padding: 24px 16px;
+        }
+        .container {
+            max-width: 720px;
+            margin: 0 auto;
+            background: #FFFFFF;
+            border-radius: 16px;
+            padding: 40px 32px;
+            box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+        }
+        h1 {
+            color: #1E293B;
+            font-size: 28px;
+            margin-top: 0;
+            margin-bottom: 8px;
+        }
+        .last-updated {
+            display: inline-block;
+            background: #EFF6FF;
+            color: #3B82F6;
+            font-size: 13px;
+            padding: 6px 14px;
+            border-radius: 100px;
+            margin-bottom: 24px;
+        }
+        h2 {
+            color: #1E293B;
+            font-size: 20px;
+            margin-top: 32px;
+            margin-bottom: 12px;
+            border-bottom: 2px solid #F1F5F9;
+            padding-bottom: 8px;
+        }
+        p { margin: 12px 0; }
+        ul { padding-inline-start: 20px; margin: 12px 0; }
+        li { margin: 6px 0; }
+        b, strong { color: #1E293B; }
+        a { color: #3B82F6; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+        .lang-toggle {
+            text-align: center;
+            margin-bottom: 16px;
+        }
+        .lang-toggle a {
+            display: inline-block;
+            padding: 8px 16px;
+            border-radius: 8px;
+            background: #F1F5F9;
+            color: #1E293B;
+            margin: 0 4px;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 32px;
+            color: #64748B;
+            font-size: 13px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="lang-toggle">
+            <a href="#ar">العربية</a>
+            <a href="#en">English</a>
+        </div>
+
+        <!-- ═══════ ARABIC ═══════ -->
+        <section id="ar">
+            <h1>سياسة الخصوصية</h1>
+            <span class="last-updated">آخر تحديث: مايو 2026</span>
+
+            <h2>مقدمة</h2>
+            <p>نحن في تطبيق <b>مَصروفاتي</b> نولي خصوصيتك أهمية قصوى. تشرح هذه السياسة كيف يتعامل تطبيقنا مع بياناتك المالية والشخصية، وما هي الصلاحيات التي يطلبها، وكيف تتحكم فيها.</p>
+            <p><b>الخلاصة:</b> بياناتك المالية تبقى على جهازك. نحن لا نراها، ولا نحتفظ بها على خوادمنا. تُرفع نسخة احتياطية فقط على Google Drive الخاص بك إذا اخترت ذلك بنفسك.</p>
+
+            <h2>١. البيانات التي يحفظها التطبيق</h2>
+            <p><b>على جهازك فقط:</b></p>
+            <ul>
+                <li>المعاملات المالية (الدخل والمصروفات)</li>
+                <li>الديون والأهداف المالية</li>
+                <li>الميزانيات والفئات</li>
+                <li>إعدادات التطبيق (اللغة، العملة، التذكيرات)</li>
+                <li>رمز الحماية (PIN) — مشفر بـ Android Keystore</li>
+            </ul>
+            <p><b>على Google Drive الخاص بك (اختياري):</b></p>
+            <ul>
+                <li>نسخة احتياطية من قاعدة البيانات في مجلد AppData خاص بحسابك</li>
+                <li>هذه البيانات لا يصل إليها إلا أنت — حتى Google نفسها لا تطّلع عليها</li>
+            </ul>
+
+            <h2>٢. البيانات التي تُجمع تلقائياً</h2>
+            <p>يستخدم التطبيق خدمات Google Firebase للأغراض التالية:</p>
+            <ul>
+                <li><b>Firebase Analytics:</b> أنماط الاستخدام العامة (الشاشات الأكثر زيارة) — بدون أي معرف شخصي ولا بيانات مالية.</li>
+                <li><b>Crashlytics:</b> تقارير تقنية عن الأعطال لإصلاحها — بدون محتوى بياناتك.</li>
+                <li><b>Cloud Messaging:</b> رمز جهاز (FCM token) لإرسال الإشعارات الجماعية (مثل التحديثات).</li>
+                <li><b>Performance Monitoring:</b> قياس سرعة التطبيق وزمن الاستجابة.</li>
+            </ul>
+            <p>هذه البيانات مجهولة الهوية ولا تربطنا بشخصك.</p>
+
+            <h2>٣. الصلاحيات المطلوبة</h2>
+            <ul>
+                <li><b>الإشعارات:</b> لإرسال التذكيرات اليومية وتنبيهات الميزانية والديون.</li>
+                <li><b>الإنترنت:</b> فقط لرفع/تنزيل النسخة الاحتياطية من Google Drive.</li>
+                <li><b>البصمة / التعرف على الوجه:</b> اختياري — لقفل التطبيق برمز.</li>
+                <li><b>تشغيل بعد إعادة التشغيل:</b> لإعادة جدولة التذكيرات بعد إعادة تشغيل الجهاز.</li>
+                <li><b>مواعيد دقيقة (Exact Alarms):</b> لتشغيل التذكير اليومي في الوقت المحدد.</li>
+                <li><b>التخزين (Android 9 فقط):</b> لتصدير التقارير كـ PDF.</li>
+            </ul>
+
+            <h2>٤. مشاركة البيانات</h2>
+            <p><b>لا نشارك بياناتك مع أي طرف ثالث.</b> الاستثناء الوحيد هو Google Firebase (مرفقات تقنية مجهولة الهوية)، وذلك فقط لتحسين أداء التطبيق وإصلاح الأخطاء.</p>
+            <p>لا نبيع بياناتك. لا نستخدمها للإعلانات. لا نحلل تعاملاتك المالية الشخصية.</p>
+
+            <h2>٥. حقوقك</h2>
+            <ul>
+                <li><b>حذف بياناتك:</b> امسح بيانات التطبيق من إعدادات النظام (الإعدادات → التطبيقات → مَصروفاتي → التخزين → مسح البيانات).</li>
+                <li><b>إيقاف النسخ الاحتياطي:</b> سجّل خروجك من Google Drive من داخل التطبيق (الإعدادات → حفظ واسترجاع البيانات).</li>
+                <li><b>إيقاف الإشعارات:</b> من إعدادات التطبيق أو من إعدادات النظام.</li>
+                <li><b>تصدير بياناتك:</b> النسخة الاحتياطية على Google Drive ملك لك بالكامل، يمكنك تنزيلها أو حذفها وقتما شئت.</li>
+            </ul>
+
+            <h2>٦. خصوصية الأطفال</h2>
+            <p>التطبيق غير مخصص للأطفال دون 13 سنة. لا نجمع عمداً أي بيانات عن الأطفال. إذا اكتشفت أن طفلك يستخدم التطبيق، يمكنك التواصل معنا لحذف بياناته فوراً.</p>
+
+            <h2>٧. أمان البيانات</h2>
+            <p>نتبع أفضل ممارسات الحماية:</p>
+            <ul>
+                <li>رمز الحماية (PIN) مشفر باستخدام Android Keystore.</li>
+                <li>الاتصال بـ Google Drive يتم عبر OAuth 2.0 الآمن.</li>
+                <li>لا نخزن أي كلمات مرور أو رموز على خوادمنا.</li>
+            </ul>
+
+            <h2>٨. التحديثات على هذه السياسة</h2>
+            <p>قد نحدّث هذه السياسة مع إضافة ميزات جديدة. سنُعلمك بأي تغييرات جوهرية عبر إشعار داخل التطبيق. التاريخ في أعلى الصفحة يوضح آخر تحديث.</p>
+
+            <h2>٩. التواصل معنا</h2>
+            <p>لأي استفسار عن خصوصيتك أو لطلب حذف بياناتك:</p>
+            <p><b>البريد:</b> <a href="mailto:support@masroufati.app">support@masroufati.app</a><br>
+            <b>الموقع:</b> <a href="https://www.masroufati.app">www.masroufati.app</a></p>
+        </section>
+
+        <hr style="margin: 48px 0; border: none; border-top: 2px solid #F1F5F9;">
+
+        <!-- ═══════ ENGLISH ═══════ -->
+        <section id="en" dir="ltr" style="text-align: left;">
+            <h1>Privacy Policy</h1>
+            <span class="last-updated">Last updated: May 2026</span>
+
+            <h2>Introduction</h2>
+            <p>At <b>Masroufati</b>, your privacy is our top priority. This policy explains how our app handles your financial and personal data, what permissions it requests, and how you control them.</p>
+            <p><b>Bottom line:</b> Your financial data stays on your device. We do not see it, and we do not store it on our servers. A backup is uploaded to <i>your own</i> Google Drive only if you explicitly choose to.</p>
+
+            <h2>1. Data the App Stores</h2>
+            <p><b>On your device only:</b></p>
+            <ul>
+                <li>Financial transactions (income and expenses)</li>
+                <li>Debts and financial goals</li>
+                <li>Budgets and categories</li>
+                <li>App settings (language, currency, reminders)</li>
+                <li>App lock PIN — encrypted using Android Keystore</li>
+            </ul>
+            <p><b>On your own Google Drive (optional):</b></p>
+            <ul>
+                <li>A backup in your private AppData folder</li>
+                <li>Only you can access this data — even Google does not see it</li>
+            </ul>
+
+            <h2>2. Data Collected Automatically</h2>
+            <p>The app uses Google Firebase for the following:</p>
+            <ul>
+                <li><b>Firebase Analytics:</b> general usage patterns (most-visited screens) — without any personal identifier or financial data.</li>
+                <li><b>Crashlytics:</b> technical crash reports for debugging — without your data content.</li>
+                <li><b>Cloud Messaging:</b> a device token (FCM) for broadcast notifications (e.g., updates).</li>
+                <li><b>Performance Monitoring:</b> measuring app speed and response time.</li>
+            </ul>
+            <p>This data is anonymous and does not link us to your identity.</p>
+
+            <h2>3. Permissions Requested</h2>
+            <ul>
+                <li><b>Notifications:</b> for daily reminders, budget alerts, and debt due dates.</li>
+                <li><b>Internet:</b> only to upload/download backups from Google Drive.</li>
+                <li><b>Biometric / Face Unlock:</b> optional — to lock the app with a PIN.</li>
+                <li><b>Boot Completed:</b> to reschedule reminders after device restart.</li>
+                <li><b>Exact Alarms:</b> to fire the daily reminder at the exact time.</li>
+                <li><b>Storage (Android 9 only):</b> for exporting reports as PDF.</li>
+            </ul>
+
+            <h2>4. Data Sharing</h2>
+            <p><b>We do not share your data with any third party.</b> The only exception is anonymized Google Firebase telemetry, used solely to improve app performance and fix bugs.</p>
+            <p>We do not sell your data. We do not use it for advertising. We do not analyze your personal financial transactions.</p>
+
+            <h2>5. Your Rights</h2>
+            <ul>
+                <li><b>Delete your data:</b> Clear the app data from system settings (Settings → Apps → Masroufati → Storage → Clear Data).</li>
+                <li><b>Disable backups:</b> Sign out from Google Drive inside the app (Settings → Backup &amp; Restore).</li>
+                <li><b>Disable notifications:</b> From the app settings or system settings.</li>
+                <li><b>Export your data:</b> The Google Drive backup is fully yours — you can download or delete it anytime.</li>
+            </ul>
+
+            <h2>6. Children's Privacy</h2>
+            <p>The app is not intended for children under 13. We do not knowingly collect any data about children. If you discover that your child uses the app, contact us to delete their data immediately.</p>
+
+            <h2>7. Data Security</h2>
+            <p>We follow security best practices:</p>
+            <ul>
+                <li>The PIN is encrypted using Android Keystore.</li>
+                <li>Google Drive connection uses secure OAuth 2.0.</li>
+                <li>We do not store any passwords or tokens on our servers.</li>
+            </ul>
+
+            <h2>8. Updates to this Policy</h2>
+            <p>We may update this policy as we add new features. We will notify you of any major changes via an in-app notification. The date at the top of this page indicates the last update.</p>
+
+            <h2>9. Contact Us</h2>
+            <p>For any privacy question or to request data deletion:</p>
+            <p><b>Email:</b> <a href="mailto:support@masroufati.app">support@masroufati.app</a><br>
+            <b>Website:</b> <a href="https://www.masroufati.app">www.masroufati.app</a></p>
+        </section>
+
+        <div class="footer">© Masroufati · مَصروفاتي</div>
+    </div>
+</body>
+</html>

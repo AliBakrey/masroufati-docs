@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>حذف الحساب والبيانات — مَصروفاتي</title>
+    <style>
+        * { box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Tahoma, Arial, sans-serif;
+            line-height: 1.7;
+            color: #334155;
+            background: #F0F4F8;
+            margin: 0;
+            padding: 24px 16px;
+        }
+        .container {
+            max-width: 720px;
+            margin: 0 auto;
+            background: #FFFFFF;
+            border-radius: 16px;
+            padding: 40px 32px;
+            box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+        }
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            margin-bottom: 32px;
+        }
+        .logo-icon {
+            width: 48px;
+            height: 48px;
+            background: #3B82F6;
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 24px;
+        }
+        .logo-text {
+            font-size: 22px;
+            font-weight: 700;
+            color: #1E293B;
+        }
+        h1 {
+            color: #1E293B;
+            font-size: 28px;
+            margin-top: 0;
+            margin-bottom: 8px;
+        }
+        .subtitle {
+            color: #64748B;
+            font-size: 14px;
+            margin-bottom: 32px;
+        }
+        h2 {
+            color: #1E293B;
+            font-size: 18px;
+            margin-top: 32px;
+            margin-bottom: 12px;
+            padding-bottom: 8px;
+            border-bottom: 2px solid #E2E8F0;
+        }
+        p { margin: 0 0 16px; }
+        .steps {
+            background: #F8FAFC;
+            border-radius: 12px;
+            padding: 20px 24px;
+            margin: 16px 0;
+        }
+        .step {
+            display: flex;
+            align-items: flex-start;
+            gap: 16px;
+            margin-bottom: 16px;
+        }
+        .step:last-child { margin-bottom: 0; }
+        .step-num {
+            background: #3B82F6;
+            color: white;
+            width: 28px;
+            height: 28px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 14px;
+            font-weight: 700;
+            flex-shrink: 0;
+        }
+        .step-text {
+            color: #334155;
+            font-size: 15px;
+            padding-top: 4px;
+        }
+        .warning-box {
+            background: #FFF7ED;
+            border: 1px solid #FED7AA;
+            border-radius: 12px;
+            padding: 16px 20px;
+            margin: 16px 0;
+            color: #92400E;
+        }
+        .warning-box strong { color: #7C2D12; }
+        .data-list {
+            list-style: none;
+            padding: 0;
+            margin: 12px 0;
+        }
+        .data-list li {
+            padding: 8px 0;
+            border-bottom: 1px solid #F1F5F9;
+            color: #475569;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .data-list li:last-child { border-bottom: none; }
+        .badge-deleted {
+            background: #FEE2E2;
+            color: #991B1B;
+            font-size: 12px;
+            padding: 2px 8px;
+            border-radius: 20px;
+        }
+        .badge-kept {
+            background: #FEF9C3;
+            color: #713F12;
+            font-size: 12px;
+            padding: 2px 8px;
+            border-radius: 20px;
+        }
+        .contact-box {
+            background: #EFF6FF;
+            border-radius: 12px;
+            padding: 20px 24px;
+            margin-top: 32px;
+            text-align: center;
+        }
+        .contact-box a {
+            color: #2563EB;
+            text-decoration: none;
+            font-weight: 600;
+        }
+        footer {
+            text-align: center;
+            margin-top: 32px;
+            color: #94A3B8;
+            font-size: 13px;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+
+    <div class="logo">
+        <div class="logo-icon">💰</div>
+        <div class="logo-text">مَصروفاتي</div>
+    </div>
+
+    <h1>حذف الحساب والبيانات</h1>
+    <p class="subtitle">آخر تحديث: مايو 2025</p>
+
+    <p>
+        نحترم خصوصيتك ونمنحك التحكم الكامل في بياناتك. يمكنك حذف حسابك وجميع بياناتك المرتبطة به بسهولة من داخل التطبيق.
+    </p>
+
+    <h2>كيفية حذف حسابك</h2>
+    <div class="steps">
+        <div class="step">
+            <div class="step-num">1</div>
+            <div class="step-text">افتح تطبيق <strong>مصروفاتي</strong></div>
+        </div>
+        <div class="step">
+            <div class="step-num">2</div>
+            <div class="step-text">اذهب إلى <strong>الإعدادات</strong> من الشاشة الرئيسية</div>
+        </div>
+        <div class="step">
+            <div class="step-num">3</div>
+            <div class="step-text">اضغط على <strong>الحساب والخصوصية</strong></div>
+        </div>
+        <div class="step">
+            <div class="step-num">4</div>
+            <div class="step-text">اضغط على <strong>حذف الحساب والبيانات</strong></div>
+        </div>
+        <div class="step">
+            <div class="step-num">5</div>
+            <div class="step-text">أكّد الحذف وسيتم مسح جميع بياناتك فوراً</div>
+        </div>
+    </div>
+
+    <div class="warning-box">
+        <strong>تنبيه:</strong> عملية الحذف نهائية ولا يمكن التراجع عنها. تأكد من تصدير بياناتك قبل المتابعة إن أردت الاحتفاظ بها.
+    </div>
+
+    <h2>البيانات التي يتم حذفها</h2>
+    <ul class="data-list">
+        <li>💳 جميع المعاملات المالية <span class="badge-deleted">يُحذف</span></li>
+        <li>📊 جميع الميزانيات والفئات <span class="badge-deleted">يُحذف</span></li>
+        <li>👤 بيانات الملف الشخصي (الاسم، الصورة) <span class="badge-deleted">يُحذف</span></li>
+        <li>🔔 إعدادات التنبيهات والتفضيلات <span class="badge-deleted">يُحذف</span></li>
+        <li>☁️ النسخة الاحتياطية على Google Drive (إن وُجدت) <span class="badge-deleted">يُحذف</span></li>
+    </ul>
+
+    <h2>البيانات التي قد تُحتفظ بها مؤقتاً</h2>
+    <ul class="data-list">
+        <li>📋 سجلات الأعطال التقنية عبر Firebase Crashlytics <span class="badge-kept">تُحذف خلال 90 يوماً</span></li>
+        <li>📈 بيانات استخدام مجهولة الهوية عبر Firebase Analytics <span class="badge-kept">تُحذف خلال 14 شهراً</span></li>
+    </ul>
+
+    <h2>طلب الحذف عبر البريد الإلكتروني</h2>
+    <p>
+        إذا واجهت أي مشكلة في حذف حسابك من داخل التطبيق، يمكنك التواصل معنا مباشرة وسنتولى حذف بياناتك خلال <strong>7 أيام عمل</strong>.
+    </p>
+
+    <div class="contact-box">
+        <p style="margin:0; color:#1E40AF;">للتواصل وطلب حذف البيانات:</p>
+        <p style="margin:8px 0 0;"><a href="mailto:support@masroufati.app">support@masroufati.app</a></p>
+    </div>
+
+    <footer>
+        <p>© 2025 Orbitly Tech — مَصروفاتي</p>
+        <p><a href="privacy-policy.html" style="color:#94A3B8;">سياسة الخصوصية</a></p>
+    </footer>
+
+</div>
+</body>
+</html>
